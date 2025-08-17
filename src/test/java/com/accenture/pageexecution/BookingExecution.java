@@ -14,6 +14,13 @@ public class BookingExecution {
 		Assert.assertTrue(true);
 
 	}
+	public class BookingExecutionOne {
+	@Test
+	public void validLogin() {
+		BaseClass.getUrl("https://www.google.com/");
+		Assert.assertTrue(true);
+
+	}
 
 	@BeforeMethod
 	public void broswerOpen() {
